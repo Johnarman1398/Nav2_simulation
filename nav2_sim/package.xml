@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>nav2_sim</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="seagangster98@gmail.com">capstone2</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <depend>neo_mp_400-2</depend>
+  <depend>neo_mp_500-2</depend>
+  <depend>neo_msgs2</depend>
+  <depend>neo_nav2_bringup</depend>
+  <depend>neo_simulation</depend>
+  <depend>neo_srvs2</depend>
+  <depend>turtlebot3_gazebo</depend>
+  <exec_depend>ros2launch</exec_depend>
+
+
+
+
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
